@@ -1,4 +1,4 @@
-.SILENT:
+docker-compose up --build -d.SILENT:
 .DEFAULT_GOAL := help
 
 COLOR_RESET = \033[0m
