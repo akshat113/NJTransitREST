@@ -201,9 +201,6 @@ station_code_abbrev = {
 }
 
 code_station_abbrev = dict(map(reversed, station_code_abbrev.items()))
-@app.route("/")
-def hello():
-    return render_template('index.html')
 
 @app.route('/get', methods=['GET'])
 def api_all():
