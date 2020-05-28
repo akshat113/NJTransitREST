@@ -51,7 +51,7 @@ If you open the API without a origin_station_id or destination_station_id, it wi
 ```sh 
 Error: No destination station provided. Please specify an destination station.
 ```
-##Future Scope
+## Future Scope
 
 The app can be improved by adding Google API to give directions to the nearest station
 
